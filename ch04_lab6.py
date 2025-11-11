@@ -6,7 +6,7 @@ print('일일 판매량을 입력하세요.')
 print()
 
 
-americano = int(input('아메리카노 판매 수:  :') )                                 # 1일 판매 : 아메리카노 20
+americano = int(input('아메리카노 판매 수:  :') )                           # 1일 판매 : 아메리카노 20
 
 
 
