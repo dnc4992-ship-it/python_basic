@@ -1,13 +1,19 @@
 # ch05_lab2.py
 
-n = int(input('정수를 입력하세요: '))
+# 정수판별(양수/0/음수)
 
-if n  >= 0:
-    print('양수')
 
-elif n == 0:
-    print('0')
+a = int(input('정수를 입력하세요: '))
 
+if a > 0 :
+              
+    print('양수입니다')
+
+
+elif a == 0 :
+
+    print('0 입니다')
+
+    
 else:
-    print('음수')
-
+    print('음수입니다.')
