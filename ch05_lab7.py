@@ -1,5 +1,9 @@
 # ch05_lab7.py
 
+print('체질량 지수(BMI) 구하기')
+print()
+
+
 h = float(input('키(cm) : '))
 print()
 
@@ -17,19 +21,19 @@ c_h = h / 100
 bmi = float(w / (c_h)**2)
 
 
-if bmi <=  20 :
+if bmi <  20 :
 
     print(f'당신의 체질량 지수는 {bmi:.2f}(저체중)입니다.')
 
 
 
-elif 20 <= bmi<= 25 :
+elif 20 < bmi< 25 :
 
     print(f'당신의 체질량 지수는 {bmi:.2f}(정상)입니다.')
 
 
 
-elif  25 <= bmi <=  30 :
+elif  25 < bmi <  30 :
 
     print(f'당신의 체질량 지수는 {bmi:.2f}(과체중)입니다.')
 
@@ -37,6 +41,3 @@ elif  25 <= bmi <=  30 :
 else :  
 
     print(f'당신의 체질량 지수는 {bmi:.2f}(비만)입니다.')
-
-
-
