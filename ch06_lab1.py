@@ -1,20 +1,13 @@
 # ch06_lab1.py
 
+n = 0
+s = 0
 
-n = int(input('정수 입력 : '))
-
-s = int(input('정수 입력 : '))
-
-a = int(input('정수 입력 : '))
-
-
-k = 0
-
-m = n + s + a
-
-
-while k < 1 :
-
-      k += 1
-
-      print(f'총 합은{m} 입니다.')
+while n < 3:
+    m = int(input('정수 입력: '))
+    n += 1
+    s += m
+    
+    
+print(f'총 합은{s}입니다.')
+    
