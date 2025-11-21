@@ -14,7 +14,6 @@ print('홀수들:  ', end =' ')   # 인쇄될때 옆으로 숫자가 오도록
 
 for n in range (a, b+1 ) :
 
-
     if n % 2 == 1:   # 홀수
 
        print(n, end=' ')
