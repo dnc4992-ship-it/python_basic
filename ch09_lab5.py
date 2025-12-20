@@ -10,6 +10,7 @@ while True:
             a = input(f' 보고 싶은 동물을 입력하세요 : ')       # 보고싶은 동물입력
             if a == '없음':
                 break
+
             w_see.append(a)
 
             
