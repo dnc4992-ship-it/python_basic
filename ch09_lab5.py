@@ -1,8 +1,6 @@
-# ch09_lab5.py
-
 w_see = []             # 보고싶은 동물
-see = []                 # 본 동물
-new_see = []      #  새롭게 본  동물입력
+see = []               # 본 동물
+new_see = []           # 새롭게 본  동물입력
 
 
 while True:
@@ -17,7 +15,7 @@ while True:
          
             
 #----------------------------------
- while True:
+while True:
      
            b = input(f' 본 동물을 입력하세요 : ')                 # 본 동물입력
            if b == '없음':
